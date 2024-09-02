@@ -1,5 +1,5 @@
 import sys
-from logger import logger  # Import the logger instance from logging_setup
+from src.logger import logger  # Import the logger instance from logging_setup
 
 def error_message_detail(error: Exception, error_detail: sys) -> str:
     """
